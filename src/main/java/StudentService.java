@@ -16,13 +16,13 @@ import java.util.Scanner;
 
         //step 9: method to register student
         public void saveStudent() {
-            System.out.println("Name: ");
+            System.out.println("Name : ");
             String name = input.nextLine();
-            System.out.println("Last Name: ");
+            System.out.println("Last Name : ");
             String lastName = input.nextLine();
-            System.out.println("City: " );
+            System.out.println("City : " );
             String city = input.nextLine();
-            System.out.println("Age: ");
+            System.out.println("Age : ");
             int age = input.nextInt();
             input.nextLine();//to call next enter/new line
 
